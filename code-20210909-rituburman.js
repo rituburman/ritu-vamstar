@@ -10,5 +10,8 @@ const data = [{ "Gender": "Male", "HeightCm": 171, "WeightKg": 96 }, {
 }];
 
 
+let overWeight = 0;
+function BMI() {
 
+    this.bmi = Math.round(this.WeightKg / (this.HeightCm / 100 * this.HeightCm / 100));
 
