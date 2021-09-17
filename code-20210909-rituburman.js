@@ -49,5 +49,6 @@ for (let person of data) {
 }
 
 
+console.log("Total Overweight: " + overWeight);
 
 
