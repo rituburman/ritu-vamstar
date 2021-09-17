@@ -42,13 +42,10 @@ function BMI() {
 
 }
 
-
 for (let person of data) {
     BMI.apply(person);
     console.log(person);
 }
-
-
 console.log("Total Overweight: " + overWeight);
 
 
